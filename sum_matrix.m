@@ -1,9 +1,0 @@
-function p1=sum_matrix(I,A,y)
-I = uint64(I);
-I=sum(I);
-I=sum(I);
-I=mod(I,256);
-A = uint64(A);
-A = A+I*127;
-A = mod(A,256);
-p1 = uint8(A);
